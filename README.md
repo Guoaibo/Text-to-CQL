@@ -1,6 +1,14 @@
 # Text-to-CQL
 This is the entire dataset of our CIKM 2022 paper "SpCQL: A Semantic Parsing Dataset for Converting Natural Language into Cypher", including the train, validation, and test sets.
 
+For example, 
+
+		{
+			"query": "云艺文华的全称你知道是什么？", 
+			"cypher": "match (:ENTITY{name:'云艺文华'})<-[:Relationship{name:'简称'}]-(h) return h.name", 
+			"answer": [{"h.name": "云南艺术学院文华学院"}]
+		}
+
 Since the size of the neo4j database exceeded the github upload limit requirements, we have to upload it to Baidu.com. The neo4j database used for the dataset can be downloaded via Baidu.com. Of course, the entire version of the data is also available for download on Baidu.com along with it.
 https://pan.baidu.com/s/1aqMZFMOOpiB1GWUo5-I7xQ?pwd=b6ix 
 
