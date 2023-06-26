@@ -4,7 +4,7 @@ This is the entire dataset of our CIKM 2022 paper "SpCQL: A Semantic Parsing Dat
 Since the size of the neo4j database exceeded the github upload limit requirements, we have to upload it to Baidu.com. The neo4j database used for the dataset can be downloaded via Baidu.com. Of course, the entire version of the data is also available for download on Baidu.com along with it.
 https://pan.baidu.com/s/1aqMZFMOOpiB1GWUo5-I7xQ?pwd=b6ix 
 
-If you have used this dataset, please cite it in the following format to thank you for your support of our work.
+Thank you for your support of our work. If you use this dataset, please cite it in the following format
 
 		@inproceedings{DBLP:conf/cikm/GuoLXT022,
 		  author       = {Aibo Guo and
